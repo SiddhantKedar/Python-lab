@@ -1,0 +1,89 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[16]:
+
+
+# Population
+Total_populations_of_Town = 198568
+
+men = 45312
+
+women = 35678
+
+#calculation
+children = Total_populations_of_Town - men -women
+
+#Output
+print("Total number of children in town", children)
+
+
+# In[18]:
+
+
+# Program 2
+
+Total_boxes = 2425
+Pencil_in_each_box = 24
+
+Total_Pencils = Total_boxes * Pencil_in_each_box
+
+print("Total pencil in all the boxes are", Total_Pencils)
+
+
+# In[22]:
+
+
+# Program 3
+
+Total_rooms = 86
+Total_students = 4356
+
+student_in_each_room = Total_students // Total_rooms
+
+print("Equal number of students sitting in each room are", student_in_each_room)
+
+
+# In[27]:
+
+
+# Program 4
+
+Number_of_toys = 96
+Money_spent = 12960
+Money_left = 1015
+
+cost_of_each_toy= Money_spent / Number_of_toys
+
+Total_Money = Money_spent + Money_left
+
+print("Cost of each toy is $", cost_of_each_toy)
+
+print("Total money spent is $", Total_Money)
+
+
+# In[30]:
+
+
+# program 5
+
+price_for_plane = 5000
+travelers_signed = 29
+price_per_ticket = 200
+
+profit= ((travelers_signed * price_per_ticket) - (price_for_plane))
+
+print("Profit made by the company is $", profit)
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
